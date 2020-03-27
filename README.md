@@ -3,7 +3,7 @@ Number of cases of COVID-19 in Brazilian cities.
 This repository contains daily case reports. All updates are made at 21:00 (GMT). 
 
 ## File naming:
-Archived files (archived_data folder): MM-DD-YYYY.csv 
+Archived files (archived_files folder): MM-DD-YYYY.csv 
 
 Latest file (in 'today_data' folder): latest_covid_br.csv
 
