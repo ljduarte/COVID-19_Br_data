@@ -2,6 +2,9 @@
 Number of cases of COVID-19 in Brazilian cities. 
 This repository contains daily case reports. All updates are made at 21:00 (GMT). 
 
+"Unknown" corresponds to the sum of cases in cities whose names were not disclosed by the goverment.
+
+
 ## File naming:
 Archived files (archived_files folder): MM-DD-YYYY.csv 
 
