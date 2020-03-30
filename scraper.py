@@ -20,6 +20,9 @@ for data in items:
     if data.find_element_by_class_name('places__cell').text == 'Não informado':
         city = 'Unknown'
         state = 'Unknown'
+    elif len(data.find_element_by_class_name('places__cell').text.split(',')) == 1:
+        city = data.find_element_by_class_name('places__cell').text.split(',')[0]
+        state = 'Unknown'
     else:
         city = data.find_element_by_class_name('places__cell').text.split(',')[0]
         state = data.find_element_by_class_name('places__cell').text.split(',')[1]
